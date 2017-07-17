@@ -41,8 +41,6 @@
 ;; (gnus-select-account-enable)
 ;; #+END_EXAMPLE
 
-;; ** Usage
-
 ;;; Code:
 
 ;; * gnus-select-account's code                                                        :code:
