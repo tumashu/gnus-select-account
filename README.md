@@ -1,16 +1,16 @@
-- [What is gnus-select-account](#org5530b3d)
-  - [Installation](#org5481ee1)
-  - [Configure](#orgd6507e3)
+- [What is gnus-select-account](#org6f9b51f)
+  - [Installation](#org5e1db73)
+  - [Configure](#org0502741)
 
 
-<a id="org5530b3d"></a>
+<a id="org6f9b51f"></a>
 
 # What is gnus-select-account
 
 gnus-select-account let user select an account before write a email in gnus.
 
 
-<a id="org5481ee1"></a>
+<a id="org5e1db73"></a>
 
 ## Installation
 
@@ -18,15 +18,15 @@ gnus-select-account let user select an account before write a email in gnus.
 2.  M-x package-install RET gnus-select-account RET
 
 
-<a id="orgd6507e3"></a>
+<a id="org0502741"></a>
 
 ## Configure
 
-1.  Config gnus-select-account
+1.  Gnus-select-account configure
 
         (require 'gnus-select-account)
         (gnus-select-account-enable)
-2.  Add account to file: "~/.authinfo.gpg" or "~/.authinfo"
+2.  Add account information to file: "~/.authinfo.gpg" or "~/.authinfo", for example:
 
         machine smtp.163.com login xxxr@163.com port 465 password PASSWORD user-full-name "XXX" user-mail-address xxx@163.com
         machine smtp.qq.com  login xxx@qq.com   port 465 password PASSWORD user-full-name "XXX" user-mail-address xxx@qq.com
