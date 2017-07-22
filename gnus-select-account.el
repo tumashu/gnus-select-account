@@ -76,6 +76,7 @@
 
 ;;;###autoload
 (defun gnus-select-account ()
+  "Select an account before writing a mail in gnus."
   (interactive)
   (let* ((accounts-info
           (if gnus-select-account-prefer-sendmail
