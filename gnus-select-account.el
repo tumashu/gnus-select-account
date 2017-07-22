@@ -48,8 +48,7 @@
 
 (defgroup gnus-select-account nil
   "Select an account before writing a mail in gnus."
-  :prefix "gnus-select-account-"
-  :group 'applications)
+  :group 'gnus)
 
 (defcustom gnus-select-account-prefer-sendmail nil
   "Put 'sendmail' item to first place when show accounts list."
